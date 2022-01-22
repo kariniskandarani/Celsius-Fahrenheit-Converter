@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel='stylesheet' href='index.css'>
+</head>
+<body>
+    <div id='main-container'>
+        <div id='container-1'>
+            <p id ='title2'><strong>Temperature</strong></p>
+            <table>
+                <tbody>
+                    <tr>
+                        <input id='input1' oninput='toCelsius()' type='number' placeholder="Enter fahrenheit"> 
+                        <strong> = </strong>
+                        <input id='input2' oninput='toFahrenheit()' type='number' placeholder="Enter Celsius">
+                    </tr>
+                    <br>
+                    
+                    <label id='fahrenheit'><strong>Fahrenheit</strong></label>
+                    
+                    <label id='celsius'><strong>Celsius</strong></label>
+                    
+                    
+                </tbody>
+            </table>
+            <p><span id='formula'></span> </p>
+            
+            
+        </div>
+    </div>
+    <script src='index.js'></script>
+</body>
+</html>
